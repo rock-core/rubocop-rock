@@ -1,2 +1,29 @@
 Layout/IndentationWidth:
-    width: 4
+    Width: 4
+
+Metrics/LineLength:
+    Max: 90
+
+Metrics/MethodLength:
+    Max: 80
+
+Metrics/ClassLength:
+    Max: 500
+
+Style/NumericPredicate:
+    Enabled: false
+
+Style/ClassCheck:
+    EnforcedStyle: kind_of?
+
+Style/CaseEquality:
+    Enabled: false
+
+Style/Next:
+    Enabled: false
+
+Layout/AlignParameters:
+    EnforcedStyle: with_fixed_indentation
+
+Layout/MultiMethodCallIndentation:
+    EnforcedStyle: indented
