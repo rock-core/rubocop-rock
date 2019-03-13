@@ -1,7 +1,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "rubocop-rock"
-  spec.version       = "0.1"
+  spec.version       = "0.2"
   spec.authors       = ["Sylvain Joyeux"]
   spec.email         = ["sylvain.joyeux@13robotics.com"]
 
