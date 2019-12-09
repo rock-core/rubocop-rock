@@ -28,5 +28,3 @@ Style/Next:
 Layout/ParameterAlignment:
     EnforcedStyle: with_fixed_indentation
 
-Layout/MultiMethodCallIndentation:
-    EnforcedStyle: indented
