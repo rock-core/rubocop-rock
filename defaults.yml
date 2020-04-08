@@ -25,6 +25,9 @@ Style/CaseEquality:
 Style/Next:
     Enabled: false
 
+Style/StringLiterals:
+    EnforcedStyle: double_quotes
+
 Layout/ParameterAlignment:
     EnforcedStyle: with_fixed_indentation
 
