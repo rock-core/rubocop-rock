@@ -1,7 +1,7 @@
 Layout/IndentationWidth:
     Width: 4
 
-Metrics/LineLength:
+Layout/LineLength:
     Max: 90
 
 Metrics/MethodLength:
