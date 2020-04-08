@@ -1,0 +1,4 @@
+inherit_from: defaults.yml
+
+Style/StringLiterals:
+    EnforcedStyle: double_quotes
