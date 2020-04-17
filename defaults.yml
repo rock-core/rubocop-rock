@@ -7,9 +7,6 @@ Layout/LineLength:
 Metrics/MethodLength:
     Max: 80
 
-Metrics/ModuleLength:
-    Max: 500
-
 Metrics/ClassLength:
     Max: 500
 
@@ -30,4 +27,17 @@ Style/StringLiterals:
 
 Layout/ParameterAlignment:
     EnforcedStyle: with_fixed_indentation
+
+Metrics/BlockLength:
+  ExcludedMethods:
+      # Those are minitest and rspec methods. The describe blocks in particular
+      # run very long
+      - describe
+      - it
+
+Metrics/ModuleLength:
+    Max: 500
+    Exclude:
+        - '**/test/**/test_*.rb'
+        - '**/test/**/*_test.rb'
 
