@@ -29,7 +29,7 @@ Layout/ParameterAlignment:
     EnforcedStyle: with_fixed_indentation
 
 Metrics/BlockLength:
-  ExcludedMethods:
+    AllowedMethods:
       # Those are minitest and rspec methods. The describe blocks in particular
       # run very long
       - describe
